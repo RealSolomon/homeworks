@@ -1,0 +1,8 @@
+objects = [1,2,4,5]
+o = set()
+answer = 0
+for obj in objects:
+    if obj not in o:
+        o.add(obj)
+        answer += 1
+print(answer)
